@@ -22,7 +22,7 @@ class Scraper(ScrapeFunctions):
 
 user_linkedin_url = "https://www.linkedin.com/in/user_you_want_to_scrape"
 scraper = Scraper(user_linkedin_url)
-scraper.set_credentials(email="whackiestpb@gmail.com", password="whackiest@123")
+scraper.set_credentials(email="example@email.com", password="password@123")
 scraper.scrape()
 scraper.display()
 # execution time 37 seconds
